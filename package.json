@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-tracker",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "eslint . && prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "preact": "^10.19.3",
+    "recharts": "^2.10.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "eslint": "^9.39.2",
+    "eslint-config-preact": "^2.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-hooks": "^1.0.0",
+    "prettier": "^3.7.4",
+    "vite": "^5.0.8"
+  }
+}

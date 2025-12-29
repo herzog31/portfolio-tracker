@@ -1,0 +1,130 @@
+:root {
+  /* Base Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Background Colors */
+  --color-bg-body: #f5f5f5;
+  --color-bg-container: #ffffff;
+  --color-bg-table-header: #f8f8f8;
+  --color-bg-table-row-hover: #f9f9f9;
+  --color-bg-editable-hover: #f0f0f0;
+
+  /* Text Colors */
+  --color-text-primary: #333333;
+  --color-text-secondary: #555555;
+  --color-text-tertiary: #666666;
+  --color-text-quaternary: #888888;
+  --color-text-disabled: #999999;
+  --color-text-light: #ffffff;
+
+  /* Border Colors */
+  --color-border: #dddddd;
+
+  /* Primary Button Colors */
+  --color-btn-primary: #4caf50;
+  --color-btn-primary-hover: #45a049;
+  --color-btn-disabled: #cccccc;
+
+  /* Delete Button Colors */
+  --color-btn-delete: #f44336;
+  --color-btn-delete-hover: #da190b;
+
+  /* Gradient Colors */
+  --color-gradient-start: #667eea;
+  --color-gradient-end: #764ba2;
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-gradient-start) 0%,
+    var(--color-gradient-end) 100%
+  );
+
+  /* Error Colors */
+  --color-error-text: #f44336;
+  --color-error-bg: #ffebee;
+
+  /* Currency Badge - USD */
+  --color-currency-usd-bg: #e3f2fd;
+  --color-currency-usd-text: #1976d2;
+
+  /* Currency Badge - CHF */
+  --color-currency-chf-bg: #f3e5f5;
+  --color-currency-chf-text: #7b1fa2;
+
+  /* Currency Badge - EUR */
+  --color-currency-eur-bg: #e8f5e9;
+  --color-currency-eur-text: #388e3c;
+
+  /* Currency Badge - GBP */
+  --color-currency-gbp-bg: #fff3e0;
+  --color-currency-gbp-text: #f57c00;
+
+  /* Shadow Colors */
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-spinner-border: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode - automatically activated based on system preferences */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Background Colors */
+    --color-bg-body: #121212;
+    --color-bg-container: #1e1e1e;
+    --color-bg-table-header: #2a2a2a;
+    --color-bg-table-row-hover: #2d2d2d;
+    --color-bg-editable-hover: #333333;
+
+    /* Text Colors */
+    --color-text-primary: #e0e0e0;
+    --color-text-secondary: #b0b0b0;
+    --color-text-tertiary: #909090;
+    --color-text-quaternary: #707070;
+    --color-text-disabled: #505050;
+    --color-text-light: #ffffff;
+
+    /* Border Colors */
+    --color-border: #3a3a3a;
+
+    /* Primary Button Colors */
+    --color-btn-primary: #5cb85f;
+    --color-btn-primary-hover: #4cae4f;
+    --color-btn-disabled: #404040;
+
+    /* Delete Button Colors */
+    --color-btn-delete: #ef5350;
+    --color-btn-delete-hover: #e53935;
+
+    /* Gradient Colors - slightly adjusted for dark mode */
+    --color-gradient-start: #7b8fef;
+    --color-gradient-end: #8b5fc7;
+    --gradient-primary: linear-gradient(
+      135deg,
+      var(--color-gradient-start) 0%,
+      var(--color-gradient-end) 100%
+    );
+
+    /* Error Colors */
+    --color-error-text: #ef5350;
+    --color-error-bg: #3d1e1e;
+
+    /* Currency Badge - USD */
+    --color-currency-usd-bg: #1a2838;
+    --color-currency-usd-text: #5dade2;
+
+    /* Currency Badge - CHF */
+    --color-currency-chf-bg: #2a1e30;
+    --color-currency-chf-text: #b97fd4;
+
+    /* Currency Badge - EUR */
+    --color-currency-eur-bg: #1e2e1e;
+    --color-currency-eur-text: #66bb6a;
+
+    /* Currency Badge - GBP */
+    --color-currency-gbp-bg: #382a1a;
+    --color-currency-gbp-text: #ffa726;
+
+    /* Shadow Colors */
+    --color-shadow: rgba(0, 0, 0, 0.4);
+    --color-spinner-border: rgba(255, 255, 255, 0.1);
+  }
+}
